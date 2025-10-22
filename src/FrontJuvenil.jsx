@@ -10,7 +10,7 @@ import { FaTiktok } from "react-icons/fa";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-
+import AllInboxIcon from '@mui/icons-material/AllInbox';
 
 
 
@@ -20,6 +20,7 @@ const navLinks = [
   { name: "Ciencia y Literatura", icon: <InfoIcon fontSize="small" /> },
   { name: "Cultura y Tecnología", icon: <ArticleIcon fontSize="small" /> },
   { name: "Infantil", icon: <PhotoLibraryIcon fontSize="small" /> },
+  { name: "Zapping", icon: < AllInboxIcon className="text-slate-700" /> },
   { name: "Entretenimiento", icon: <ContactMailIcon fontSize="small" /> },
   { name: "Satmun", icon: <AssignmentTurnedInIcon fontSize="small" /> },
 ];
@@ -28,7 +29,7 @@ const navLinks = [
 function Navbar() {
   return (
     <header className="fixed w-full z-40 bg-white/60 backdrop-blur-md shadow-sm">
-      <div className="max-w-6xl mx-auto px-4 py-6 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 py-6 flex items-center justify-between">
 
         {/* LOGO IZQUIERDA */}
         <div className="flex items-center gap-3">
